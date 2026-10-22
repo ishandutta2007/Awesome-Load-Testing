@@ -30,65 +30,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global load and performance testing market is valued at approximately **$1.4B–$1.7B** and projected to reach **$4.0B–$5.5B** by the mid-2030s (~10%–16% CAGR), driven by cloud migration, continuous delivery pipelines, and mission-critical uptime requirements. The market is **moderately fragmented** rather than winner-take-all, characterized by a healthy balance between deep-pocketed legacy enterprise suites (OpenText, Tricentis), high-growth cloud-native/DevOps observability vendors (Grafana Labs), specialized commercial platforms (BlazeMeter, Gatling, OctoPerf), and widely adopted open-source frameworks (JMeter, k6, Locust).
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Gatling Enterprise](https://gatling.io/)**  
-
-  Commercial tier of Gatling with managed distributed execution, real-time dashboards, and team collaboration. The open-source core (Gatling) remains free and self-hostable; Enterprise adds cloud-scale injection and enterprise support. Best for teams that want Gatling's DSL with managed infrastructure.
-
-
-
-- **[BlazeMeter](https://www.blazemeter.com/)**  
-
-  Enterprise load testing platform built on Apache JMeter, offering cloud-scale distributed testing, real-time reporting, and integrations with CI/CD and APM tools. Free tier with limited virtual users; paid plans scale with VUH (virtual user hours). Best for teams that want JMeter's flexibility without managing injection infrastructure.
-
-
-
-- **[LoadRunner (OpenText)](https://www.opentext.com/)**  
-
-  Enterprise performance testing platform with broad protocol coverage and deep analysis capabilities. Commercial, enterprise-priced. Best for large organizations requiring comprehensive performance validation across complex, heterogeneous systems.
-
-
-
-- **[NeoLoad (Tricentis)](https://www.tricentis.com/)**  
-
-  Enterprise performance testing platform with GUI-driven test design, protocol coverage beyond HTTP, and AI-assisted analysis. Commercial, enterprise-priced. Best for large organizations needing comprehensive performance validation across complex protocols.
-
-
-
-- **[k6 Cloud (Grafana Cloud k6)](https://grafana.com/products/cloud/k6/)**  
-
-  Managed execution for k6 scripts. Self-managed k6 remains free and open-source; the cloud tier adds distributed injection, dashboards, and team features. Best for teams that want k6's developer experience without provisioning injector infrastructure.
-
-
-
-- **[OctoPerf](https://octoperf.com/)**  
-
-  Load testing platform with a visual test designer and cloud execution. Supports JMeter, Gatling, and Selenium. Free tier available; paid plans scale with virtual users. Best for teams that want a modern GUI on top of open-source engines.
-
-
-
-- **[Loader.io](https://loader.io/)**  
-
-  Simple cloud-based load testing service focused on HTTP endpoints. Free tier allows limited tests; paid plans increase capacity. Best for quick, ad-hoc load checks without setup.
-
-
-
-- **[Flood.io (Tricentis Flood)](https://flood.io/)**  
-
-  Cloud load testing platform supporting JMeter, Gatling, and Selenium scripts. Usage-based pricing. Best for teams that want to run existing open-source test scripts at cloud scale.
+| Platform | Company Scale / Valuation / Revenue | Starting Price | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Loader.io](https://loader.io/)** | **Twilio / SendGrid**<br>• Market Cap: ~$37.5B–$39.5B<br>• Twilio Revenue: ~$5.07B–$5.57B | **$99.95/mo** (Pro plan) | **Free forever plan**: Up to 10,000 clients/test, 1 test at a time, max 1 minute test duration, 2 URLs per test, single US-East datacenter. | Lightweight cloud-based load testing utility focused on rapid HTTP endpoint and API stress testing with minimal configuration. |
+| **[LoadRunner Cloud](https://www.opentext.com/)** | **OpenText**<br>• Market Cap: ~$7.5B–$8.2B<br>• FY Revenue: ~$5.17B–$5.77B | **~$0.15–$0.50 / VUH** (~$10,000+/yr enterprise entry) | **30-day free trial**: 1,000 GUI Virtual User Hours (VUHs), max 1 concurrent test, 1-hour max duration, max 100 Web / 30 GUI / 100 Dev Vusers, capped at 10 total test runs. | Enterprise performance testing powerhouse with deep multi-protocol support, automated SLA validation, and enterprise-scale cloud injection. |
+| **[k6 Cloud](https://grafana.com/products/cloud/k6/)** | **Grafana Labs**<br>• Valuation: $6.0B<br>• ARR: ~$400M–$500M+ | **$19/mo** (Grafana Cloud Pro platform fee + $0.15/additional VUH) | **Free forever tier**: 500 Virtual User Hours (VUH)/month included, 14-day test result retention, and community support (no credit card required). | Managed distributed execution and collaborative analytics for k6 test scripts, deeply integrated with Grafana's observability ecosystem. |
+| **[NeoLoad](https://www.tricentis.com/)** | **Tricentis**<br>• Valuation: $4.5B<br>• ARR: ~$425M–$500M | **~$20,000/yr** (Enterprise entry license quote) | **14-day free trial**: Access to AI-driven test design, codeless script authoring, and cloud/on-prem test controllers with test duration/VU caps. | Continuous enterprise performance testing platform designed for Agile and DevOps teams with low-code script design and broad protocol coverage. |
+| **[BlazeMeter](https://www.blazemeter.com/)** | **Perforce Software**<br>• Revenue: ~$500M–$750M (est.)<br>• Private equity backed (Clearlake / Francisco Partners) | **$99/mo** (billed annually) or **$149/mo** (billed monthly) | **Free Starter plan**: 50 concurrent virtual users, 1 shared load generator, 10 tests/month, 20-minute maximum test duration, and 1,000 API tests/month. | Enterprise continuous testing platform built around Apache JMeter, enabling distributed cloud load generation, mock services, and CI/CD gating. |
+| **[Gatling Enterprise](https://gatling.io/)** | **Gatling Corp**<br>• Privately held / Independent SMB (~$5M–$15M est. ARR) | **€89/mo** (~$95/mo, Basic starter cloud pack) | **14-day free trial**: Full access to cloud distributed injectors, real-time metrics dashboards, CI/CD integrations, and AI insights (no credit card required). Core engine is also permanently free and open source. | Commercial distributed execution tier for Gatling test scripts, delivering centralized team reporting, live telemetry, and managed cloud injectors. |
+| **[OctoPerf](https://octoperf.com/)** | **OctoPerf**<br>• Privately held / Bootstrapped (~$1M–$5M est. ARR) | **$69–$99/test** (Pay-Per-Test) or **$149/mo** (Cloud subscription) | **Community lifetime free plan**: 50 concurrent virtual users, unlimited tests, 20-minute maximum test duration, 1 parallel run, and full access to platform features. | Full-featured SaaS load testing platform providing a web UI designer for JMeter and Gatling scripts with automated report analysis. |
+| **[Flood.io (Tricentis Flood)](https://flood.io/)** | **Tricentis** (Retired product line)<br>• Product reached End of Life (EOL) June 30, 2024 | **Discontinued** (Formerly usage-based / node-hour tiers) | **No active tier / trial**: Product reached End-of-Life on June 30, 2024; active users migrated to Tricentis NeoLoad. | Legacy cloud load testing platform executing JMeter and Gatling scripts; officially retired in favor of NeoLoad. |
 
 
 
