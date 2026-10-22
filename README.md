@@ -1,50 +1,57 @@
-# Awesome-Load-Testing
+# Awesome Load Testing 🚀
 
-## Top Load Testing Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Load Testing Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Load-Testing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Load-Testing?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Load-Testing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Load-Testing?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Load-Testing/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Load-Testing?style=flat-square" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Load-Testing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0--1.0-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## ⚡ Top Load Testing & Performance Engineering Ecosystem
 
-*Focused on High-Concurrency Load Generation, Protocol Coverage & Self-Hosted Performance Validation*  
+> A comprehensive, SEO-optimized, community-curated catalog of **SaaS platforms** and **open-source developer tools** for load testing, stress testing, high-concurrency synthetic traffic generation, API benchmarking, and distributed performance engineering.
 
-**Last updated: October 2026**
+Whether you are preparing for massive retail peak events (Black Friday / Cyber Monday), stress-testing microservices architectures across gRPC and WebSockets, or automating performance regression tests directly inside CI/CD deployment pipelines, this guide tracks the premier hosted and self-hosted tools available today.
 
+* **High-Concurrency Load Generators**: Generate millions of requests per second across multi-core machines or distributed injector clusters.
+* **Protocol & Transport Coverage**: HTTP/1.1, HTTP/2, HTTP/3, WebSockets, gRPC, MQTT, JDBC, and headless browser automation (Playwright/Puppeteer).
+* **SLO Validation & Gating**: Automated pass/fail thresholds, p90/p95/p99 latency percentiles, error budget tracking, and real-time APM telemetry.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Load Testing**. These tools generate synthetic traffic against applications—measuring throughput, latency, and error rates—to validate performance before real users do, or to diagnose why a system buckles under concurrency.
+## 📑 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Testing Platforms](#-saas--hosted-testing-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include Gatling, k6, Locust, Apache JMeter, Artillery, and wrk (the category leaders).
+## 🌐 Sector Overview & Market Dynamics
 
+The global load and performance testing software market is valued at approximately **$1.4B–$1.7B** and projected to expand to **$4.0B–$5.5B** by the mid-2030s (~10%–16% CAGR). Growth is driven by rapid cloud migration, microservices architecture adoption, mission-critical uptime requirements, and the imperative to shift performance validation left into CI/CD continuous deployment pipelines.
 
+The sector is **moderately fragmented** rather than winner-take-all:
+* **Legacy Enterprise Suites** (such as OpenText LoadRunner and Tricentis NeoLoad) maintain strong multi-protocol enterprise footprints across traditional financial and telecommunication systems.
+* **Modern Cloud-Native Observability Providers** (such as Grafana Labs with k6 Cloud) integrate load generation directly into metrics, logs, and trace dashboards.
+* **Specialized Continuous Testing SaaS Platforms** (like BlazeMeter, Gatling Enterprise, and OctoPerf) offer dedicated managed infrastructure without vendor lock-in.
+* **Vibrant Open-Source Ecosystems** (k6, wrk, Locust, JMeter, Vegeta, hey, and oha) dominate grassroots developer adoption and CI/CD runners worldwide.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, scriptable load profiles, and transparent benchmarking—ideal for performance engineers, DevOps teams, and developers who need to prove a system can handle the load without paying per-test SaaS fees. The open-source landscape is anchored by **k6** (the CI-native, resource-efficient standard), **Locust** (the Python-scriptable event-driven tool), **Gatling** (the JVM-based DSL with polished reports), and **Apache JMeter** (the protocol-agnostic GUI veteran), with lightweight utilities like **Vegeta** and **wrk** serving constant-rate and raw throughput needs.
+---
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global load and performance testing market is valued at approximately **$1.4B–$1.7B** and projected to reach **$4.0B–$5.5B** by the mid-2030s (~10%–16% CAGR), driven by cloud migration, continuous delivery pipelines, and mission-critical uptime requirements. The market is **moderately fragmented** rather than winner-take-all, characterized by a healthy balance between deep-pocketed legacy enterprise suites (OpenText, Tricentis), high-growth cloud-native/DevOps observability vendors (Grafana Labs), specialized commercial platforms (BlazeMeter, Gatling, OctoPerf), and widely adopted open-source frameworks (JMeter, k6, Locust).
-
-
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS & Hosted Testing Platforms
 
 | Platform | Company Scale / Valuation / Revenue | Starting Price | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,108 +64,83 @@ The global load and performance testing market is valued at approximately **$1.4
 | **[OctoPerf](https://octoperf.com/)** | **OctoPerf**<br>• Privately held / Bootstrapped (~$1M–$5M est. ARR) | **$69–$99/test** (Pay-Per-Test) or **$149/mo** (Cloud subscription) | **Community lifetime free plan**: 50 concurrent virtual users, unlimited tests, 20-minute maximum test duration, 1 parallel run, and full access to platform features. | Full-featured SaaS load testing platform providing a web UI designer for JMeter and Gatling scripts with automated report analysis. |
 | **[Flood.io (Tricentis Flood)](https://flood.io/)** | **Tricentis** (Retired product line)<br>• Product reached End of Life (EOL) June 30, 2024 | **Discontinued** (Formerly usage-based / node-hour tiers) | **No active tier / trial**: Product reached End-of-Life on June 30, 2024; active users migrated to Tricentis NeoLoad. | Legacy cloud load testing platform executing JMeter and Gatling scripts; officially retired in favor of NeoLoad. |
 
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[k6](https://github.com/grafana/k6)**  
-
-  **The CI-native standard.** Written in Go with JavaScript scripting (ES6), designed for developer-led performance testing. **Key strengths**: Go-based engine uses fewer resources than Java alternatives—academic evaluation found k6 demonstrated the **highest resource efficiency** across CI/CD testing scenarios . **CI/CD first-class**: single binary, pass/fail thresholds, exit codes, and examples for every major CI system . **Protocols**: HTTP, WebSockets, gRPC, and browser automation via Playwright-inspired API . **Strengths**: excellent documentation, active Grafana-backed development, and typically generates more load per CPU core than thread-based tools . **Trade-offs**: no GUI scripting; JavaScript is the only language (runs on k6's own Go runtime, not Node.js, so npm packages don't work) . Best for developer-led teams that want performance tests as build steps.
-
-
-
-- **[Locust](https://github.com/locustio/locust)**  
-
-  **The Python ecosystem's answer.** Define user behavior in plain Python—loops, conditionals, and any standard library logic . **Event-based architecture** (gevent) lets a single process handle thousands of concurrent users with lower per-user overhead than thread-based tools. **Distributed testing** via built-in master/worker mode supports massive load across machines . **Web UI** shows live progress and allows changing load mid-test. **MIT licensed**—the most permissive of the major tools . **Trade-offs**: Python's GIL limits single-node throughput compared to k6's Go engine ; per-VU memory is higher than k6 . Best for Python-centric teams and complex user flows requiring arbitrary logic.
-
-
-
-- **[Gatling](https://github.com/gatling/gatling)**  
-
-  **The JVM-based DSL with polished reports.** Built on Scala, Akka, and Netty, using asynchronous, non-blocking IO to simulate thousands of virtual users per node . **Code-first DSL** available in Java, Scala, Kotlin, JavaScript, and TypeScript—tests are version-controlled and maintainable . **Best-in-class reporting**: every run produces a polished, self-contained HTML report with percentile charts and per-request detail, with no dashboard assembly required . **Trade-offs**: JVM-based, so heavier than Go tools; steeper learning curve for the DSL . Best for JVM shops and teams that prioritize out-of-the-box reporting and expressive scenario modeling.
-
-
-
-- **[Apache JMeter](https://github.com/apache/jmeter)**  
-
-  **The protocol-agnostic veteran.** Pure Java with a comprehensive GUI for test creation, though load tests run from CLI in practice. **Protocols**: HTTP, HTTPS, JDBC, LDAP, JMS, FTP, TCP, and more out of the box . **Massive plugin ecosystem** and 20+ years of community knowledge . **Trade-offs**: JVM threading limits single-instance concurrency; GUI is for design, not execution; XML test plans are painful to version-control and code-review ; heavier resource usage than modern alternatives . Best for teams already invested in JMeter, testing non-HTTP protocols, or needing its breadth of integrations.
-
-
-
-- **[Artillery](https://github.com/artilleryio/artillery)**  
-
-  **The Node.js-native option.** YAML/JSON scenario definitions with a "batteries-included" philosophy. **Serverless support**: runs on AWS Lambda or Fargate for distributed load without managing infrastructure . **Playwright integration**: can run browser-based load tests . **Protocols**: HTTP, WebSocket, Socket.io, gRPC, and more . **License nuance**: core is MPL 2.0, but some Azure-specific modules are BSL—commercial/production usage on Azure requires a commercial license . Best for Node.js teams and serverless-first architectures.
-
-
-
-- **[Vegeta](https://github.com/tsenart/vegeta)**  
-
-  **The constant-rate specialist.** Go-based HTTP load testing tool and library designed to drill services at a **constant request rate** (req/s) for a specified duration . **Strengths**: simple CLI, library API for programmatic integration into CI/CD pipelines, detailed latency histograms with configurable buckets, and support for text/JSON/binary output formats . Best for sustained-load benchmarking and teams that want a lightweight, scriptable Go tool.
-
-
-
-- **[wrk](https://github.com/wg/wrk)**  
-
-  **The raw throughput champion.** Multithreaded design with scalable event notification (epoll/kqueue) generates significant load from a single multi-core CPU. **LuaJIT scripting** enables custom request generation and reporting. **Limitations**: HTTP only, no distributed mode, no GUI, no assertions, no scenario orchestration. Best for answering "how many requests per second can this endpoint handle?" when complex user flows aren't needed.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **wrk2** — A wrk fork adding **rate-limited load generation** and **corrected latency** measurement (client-observed response time under queuing, not just service time). Best for accurate latency percentiles under sustained load.
-
-- **Siege** — HTTP load testing and benchmarking utility supporting basic auth, cookies, and HTTPS . Best for quick, scriptable HTTP checks.
-
-- **Taurus** — Automation-friendly test runner that wraps JMeter, Gatling, Locust, and others with a unified YAML config. Best for teams wanting to standardize across multiple engines.
-
-- **driller** — Rust-based HTTP load tester as a single ~5MB binary, YAML-configured, no runtime dependencies (no JVM, Python, or signup) . Best for CI pipelines wanting a minimal-footprint load tester.
-
-- **Frameworks for building custom systems**: Use **k6** as the CI-integrated engine for HTTP/API testing with thresholds. Use **Locust** when Python logic is needed for dynamic user simulation. Use **Gatling** when polished reports and JVM ecosystem fit matter. Use **JMeter** when protocol coverage beyond HTTP is required. Add **Vegeta** or **wrk** for lightweight constant-rate or raw throughput checks.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Tool choice depends on the question you're asking**: k6 answers "performance test as build step"; Locust answers "can I script any Python behavior"; Gatling answers "polished reports with expressive DSL"; JMeter answers "does this non-HTTP protocol work under load" .
-
-- **Benchmark performance varies by workload**: k6 showed highest resource efficiency in one CI/CD study  and strong write-intensive performance in a web-game study , but JMeter led in read-oriented tasks . Select based on your actual workload pattern.
-
-- **Distributed testing infrastructure is not free**: k6, Locust, and Gatling support distributed modes, but you must provision and maintain injector nodes—SaaS platforms charge for eliminating that operational burden .
-
-- **Artillery's Azure modules require commercial licensing**: MPL 2.0 core, but BSL for Azure-specific features—verify before production deployment on Azure .
-
-
+---
+
+## 💻 Open-Source GitHub Projects
+
+Sorted descending by GitHub stars, featuring live social star badges linking directly to each repository's stargazers community.
+
+| Tool | GitHub Stars | Core Language / Engine | Primary Use Case & Key Strengths |
+| :--- | :--- | :--- | :--- |
+| **[wrk](https://github.com/wg/wrk)** | [![GitHub stars](https://img.shields.io/github/stars/wg/wrk?style=social&color=white)](https://github.com/wg/wrk/stargazers) | C (epoll / kqueue / LuaJIT) | **The raw throughput champion.** High-performance HTTP benchmarking tool capable of generating massive concurrent load from a single multi-core system. Uses non-blocking I/O and LuaJIT for flexible HTTP request body manipulation and custom response scripting. |
+| **[k6](https://github.com/grafana/k6)** | [![GitHub stars](https://img.shields.io/github/stars/grafana/k6?style=social&color=white)](https://github.com/grafana/k6/stargazers) | Go (JavaScript ES6 DSL) | **The modern CI/CD-native standard.** Developer-centric performance testing tool built in Go with familiar JavaScript scripting. Features built-in pass/fail thresholds, rich CLI telemetry, extension modules (xk6), and native protocol support for HTTP, WebSockets, and gRPC. |
+| **[Locust](https://github.com/locustio/locust)** | [![GitHub stars](https://img.shields.io/github/stars/locustio/locust?style=social&color=white)](https://github.com/locustio/locust/stargazers) | Python (gevent async) | **The Python developer's answer.** Define complex user behavior using pure Python code without cumbersome XML or UI designers. Offers an intuitive built-in web UI with live chart updates, real-time user ramp-ups, and native distributed worker orchestration. |
+| **[Vegeta](https://github.com/tsenart/vegeta)** | [![GitHub stars](https://img.shields.io/github/stars/tsenart/vegeta?style=social&color=white)](https://github.com/tsenart/vegeta/stargazers) | Go (CLI & Library) | **The constant-rate benchmarking specialist.** Designed specifically for drilling HTTP services with a sustained, predictable request rate (req/s). Emits detailed latency distribution histograms and functions seamlessly as both a standalone CLI and an importable Go library. |
+| **[hey](https://github.com/rakyll/hey)** | [![GitHub stars](https://img.shields.io/github/stars/rakyll/hey?style=social&color=white)](https://github.com/rakyll/hey/stargazers) | Go | **Modern ApacheBench (ab) replacement.** Fast, zero-dependency CLI tool for stress testing HTTP/1.1 and HTTP/2 endpoints with clean terminal output, percentile response distribution, and custom request header support. |
+| **[oha](https://github.com/hatoo/oha)** | [![GitHub stars](https://img.shields.io/github/stars/hatoo/oha?style=social&color=white)](https://github.com/hatoo/oha/stargazers) | Rust (tokio / tui) | **Interactive terminal HTTP benchmarking.** Fast HTTP load generator written in Rust featuring an interactive real-time terminal UI (TUI) with animated latency histograms, request throughput graphs, and HTTP/2 support. |
+| **[Apache JMeter](https://github.com/apache/jmeter)** | [![GitHub stars](https://img.shields.io/github/stars/apache/jmeter?style=social&color=white)](https://github.com/apache/jmeter/stargazers) | Java | **The protocol-agnostic industry veteran.** Fully featured Java desktop testing platform with two decades of active ecosystem development. Supports almost every protocol in existence (HTTP/S, JDBC, JMS, FTP, LDAP, TCP) with extensive third-party plugins. |
+| **[Artillery](https://github.com/artilleryio/artillery)** | [![GitHub stars](https://img.shields.io/github/stars/artilleryio/artillery?style=social&color=white)](https://github.com/artilleryio/artillery/stargazers) | Node.js (YAML/JS DSL) | **Serverless-native continuous testing.** Cloud-native load testing engine configured via YAML with support for HTTP, WebSockets, Socket.io, and Playwright browser scenarios. Natively deploys serverless injector fleets directly onto AWS Lambda and ECS/Fargate. |
+| **[Autocannon](https://github.com/mcollina/autocannon)** | [![GitHub stars](https://img.shields.io/github/stars/mcollina/autocannon?style=social&color=white)](https://github.com/mcollina/autocannon/stargazers) | JavaScript / Node.js | **Fast Node.js HTTP/1.1 benchmarking.** Capable of saturating local network sockets with HTTP requests, supporting HTTP pipelining, rate limiting, and 100% JavaScript programmability inside Node.js testing suites. |
+| **[Ddosify](https://github.com/ddosify/ddosify)** | [![GitHub stars](https://img.shields.io/github/stars/ddosify/ddosify?style=social&color=white)](https://github.com/ddosify/ddosify/stargazers) | Go | **High-performance multi-protocol engine.** Simple yet robust load generator supporting HTTP, HTTPS, HTTP/2, and gRPC. Features linear, incremental, and waved traffic patterns with distributed execution capabilities. |
+| **[Gatling](https://github.com/gatling/gatling)** | [![GitHub stars](https://img.shields.io/github/stars/gatling/gatling?style=social&color=white)](https://github.com/gatling/gatling/stargazers) | Scala / Java / Kotlin / TypeScript | **JVM-based DSL with polished HTML reports.** High-performance non-blocking engine built on Akka and Netty. Offers code-first test authoring with version-controlled test assets and produces comprehensive out-of-the-box HTML analytical reports. |
+| **[Bombardier](https://github.com/codesenberg/bombardier)** | [![GitHub stars](https://img.shields.io/github/stars/codesenberg/bombardier?style=social&color=white)](https://github.com/codesenberg/bombardier/stargazers) | Go (fasthttp) | **Fast cross-platform HTTP benchmarking tool.** Leverages `fasthttp` rather than the Go standard library to achieve extreme throughput with minimal CPU overhead across Windows, macOS, and Linux. |
+| **[Siege](https://github.com/JoeDog/siege)** | [![GitHub stars](https://img.shields.io/github/stars/JoeDog/siege?style=social&color=white)](https://github.com/JoeDog/siege/stargazers) | C | **Multi-threaded HTTP/HTTPS regression testing utility.** Allows testing web servers under stress with randomized URL hits from file lists, cookie support, and transaction logging. |
+| **[wrk2](https://github.com/giltene/wrk2)** | [![GitHub stars](https://img.shields.io/github/stars/giltene/wrk2?style=social&color=white)](https://github.com/giltene/wrk2/stargazers) | C (LuaJIT) | **Rate-limited load generator with Coordinated Omission correction.** A fork of `wrk` modified to generate a constant request rate while capturing true high-percentile latency (service time + wait time). |
+| **[ghz](https://github.com/bojand/ghz)** | [![GitHub stars](https://img.shields.io/github/stars/bojand/ghz?style=social&color=white)](https://github.com/bojand/ghz/stargazers) | Go | **Dedicated gRPC benchmarking and load testing tool.** Provides simple CLI invocation and programmatic Go APIs for benchmarking unary, client streaming, server streaming, and bidirectional gRPC calls. |
+| **[Drill](https://github.com/fcsonline/drill)** | [![GitHub stars](https://img.shields.io/github/stars/fcsonline/drill?style=social&color=white)](https://github.com/fcsonline/drill/stargazers) | Rust | **Lightweight HTTP load test runner.** Written in Rust with clean YAML test specifications. Compiles to a tiny standalone single binary (~5MB) with zero external runtime dependencies. |
+| **[Taurus](https://github.com/Blazemeter/taurus)** | [![GitHub stars](https://img.shields.io/github/stars/Blazemeter/taurus?style=social&color=white)](https://github.com/Blazemeter/taurus/stargazers) | Python | **Automation-friendly wrapper for testing engines.** Provides a unified YAML/JSON configuration syntax to orchestrate JMeter, Gatling, Locust, Selenium, and Siege within CI/CD build steps. |
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions, tool suggestions, and documentation enhancements are always warmly welcomed! 🌟
 
-**Made for performance engineers, DevOps teams, and developers who need to prove systems can handle the load.**  
+1. **Fork** the repository on GitHub.
+2. **Create a branch** for your feature or update (`git checkout -b feature/new-tool`).
+3. **Add or update entries** in `README.md`:
+   - Keep descriptions objective, accurate, and concise.
+   - For SaaS additions, provide exact tier pricing and specific free trial/free tier limits.
+   - For open-source tools, include the repository URL, core language/engine, and star badge (`style=social&color=white`).
+4. **Commit** your changes (`git commit -m "Add NewTool to open-source load testing section"`).
+5. **Push** to your branch (`git push origin feature/new-tool`).
+6. **Open a Pull Request** with a brief summary of why the tool belongs in this curated collection.
 
-Let's make load testing more open, appropriately scoped, and resource-efficient.
+---
+
+## 💖 Support & Sponsorship
+
+If you found **Awesome-Load-Testing** useful for your projects, infrastructure benchmarking, or performance engineering research:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork it** and build your own specialized test suites!
+- 📢 **Share it** with colleagues, DevOps communities, and on social media!
+- ☕ **Buy me a coffee**: If you'd like to support the ongoing maintenance and curation of open developer resources, consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your backing and feedback are deeply appreciated! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Load-Testing&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Load-Testing&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is an **independent, community-curated** resource and does not constitute commercial endorsement of any specific product or platform.
+- **Select tools based on requirements**:
+  - Use **k6** for developer-led, CI/CD automated pipeline thresholds and JavaScript scripting.
+  - Use **Locust** when dynamic user simulation requires arbitrary Python libraries and real-time dashboard tuning.
+  - Use **Gatling** when JVM ecosystem alignment and out-of-the-box HTML reporting are paramount.
+  - Use **wrk** or **Vegeta** when raw endpoint throughput or constant-rate saturation benchmarking is required.
+  - Use **JMeter** when multi-protocol validation across non-HTTP legacy architectures is required.
+- **Infrastructure Overhead**: While open-source tools are freely available, distributed high-concurrency test generation requires provisioning and maintaining injector fleets; SaaS platforms provide managed infrastructure to eliminate that operational workload.
+
+---
+
+<p align="center">
+  <b>Built for performance engineers, DevOps teams, SREs, and developers who build resilient systems.</b><br>
+  <sub>Maintained by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> · Contributions welcome!</sub>
+</p>
